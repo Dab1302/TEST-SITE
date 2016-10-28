@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>How To Create A Website Using GitHub Pages</title>
+<title>How To Create A Host Using GitHub Pages</title>
 </head>
 <body>
 <h1>How To Create A Website Using GitHub Pages, Like This One!</h1>
 <p> Step One: Go to GitHub's website and create a new repo and call it whatever you want.</p>
-<p> Step Two: Open up your terminal or command prompt and clone your repo into a folder using the command <i><b>git clone https://github.com/user/repository.git</b></i> and then move into the folder using the <i>CD</i> command</p>
+<p> Step Two: Open up your terminal or command prompt and clone your repo into a folder using the command <i><b>git clone https://github.com/user/repository.git</b></i> and then move into the folder using the <i><b>CD</b></i> command</p>
 <p> Step Three: Next you're going to need to create a branch inside of your repository to store all of the files that make your website. We do this by using the command <i><b>git checkout --orphan gh-pages</b></i>.
+<p> Step Four: After doing all of that, move all of your server files like your HTML, CSS, and Java into the folder</p>
+<p> Step Five: Use the command <i><b>git add -A</b></i> to add the files to the list, then commit the files using <i><b>git commit -a -m "Adding Files To Site"</b></i>. To finally upload these to GitHub, your going to need to push it to the site using <i><b>git push origin gh-pages</b></i>.
+<p> Step Six: After inputting all of those commands, it will prompt you to type in your GitHub username and password, and there you go, your website is up and hosted.</p>
+<p> In order to visit your website the url will be: https://username.github.io/repository/</p>
 </body>
 </html>

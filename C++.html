@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<title> C++ Projects</title>
+<head>
+<h1> Completed C++ Simple Projects</h1>
+</head>
+<h2>Grading Calculator</h2>
+<p>#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+
+	int grade;
+	cout << "Please Enter Your	 Numeric Grade: ";
+	cin >> grade;
+	
+	if (grade > 100) {
+		cout << "Congratulations! You Scored Above A Perfect Score!" << endl;
+	}
+	else if (grade == 100) {
+		cout << "Congratulations! You Got A Perfect Score On This Assignment." << endl;
+	}
+	else if (grade < 100, grade >= 97) {
+		cout << "Congratulations. You Got An A+ On This Assignment" << endl;
+	}
+	else if (grade < 97, grade >= 93) {
+		cout << "Congratulations. You Got An A On This Assignment" << endl;
+	}
+	else if (grade < 93, grade >= 90) {
+		cout << "Congratulations. You Got An A- On This Assignment" << endl;
+	}
+	else if (grade < 90, grade >= 87) {
+		cout << "Good Job. You Got A B+ On This Assignment" << endl;
+	}
+	else if (grade < 87, grade >= 83) {
+		cout << "Good Job. You Got A B On This Assignment" << endl;
+	}
+	else if (grade < 83, grade >= 80) {
+		cout << "Good Job. You Got A B- On This Assignment" << endl;
+	}
+	else if (grade < 80, grade >= 77) {
+		cout << "Alright. You Got A C+ On This Assignment" << endl;
+	}
+	else if (grade < 77, grade >= 73) {
+		cout << "Alright. You Got A C On This Assignment" << endl;
+	}
+	else if (grade < 73, grade >= 70) {
+		cout << "Alright. You Got A C- On This Assignment" << endl;
+	}
+	else if (grade < 70, grade >= 60) {
+		cout << "You Need Work. You Got A D On This Assignment" << endl;
+	}
+	else if (grade < 60) {
+		cout << "You Need Lots Of Work. You Failed This Assignment" << endl;
+	}
+	string endit;
+	cout << "Type Something And Press Enter To End It" << endl;
+	cin >> endit;
+}</p>
